@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# write a Bash script that installs and configures HAproxy on your se
-rver
+# write a Bash script that installs and configures HAproxy on your server
+
 sudo apt-get install -y software-properties-common
 printf %s "global
     log 127.0.0.1 local0 notice
