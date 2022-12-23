@@ -9,10 +9,9 @@ information ()
 	}
 
 	for subdomain in "www" "lb-01" "web-01" "web-02"
-    	do
-	
+	do
 		if [ -z "$2" ] || [ "$2" == "$subdomain" ] ;
 		then
-		information "$1" "$subdomain"
+	information "$1" "$subdomain"
 		fi
 	done
