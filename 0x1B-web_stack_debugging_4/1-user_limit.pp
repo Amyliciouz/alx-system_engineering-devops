@@ -1,4 +1,4 @@
-# This manuscript enables the user holberton to login and open files without error
+# This script enables the user holberton to login and open files without error
 
 # Increase hard file limit for user holberton
 exec { 'increase-hard-file-limit-for-holberton-user':
